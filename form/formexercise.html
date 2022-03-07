@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register yourself for this job!</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="">First name</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="">Last Name</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="">Date of birth</label>
+            <input type="date">
+            <br>
+            <br>
+            <label for="">Email</label>
+            <input type="email">
+            <br>
+            <br>
+            <label for="">Gender</label>
+            <input list="gender" name="gender">
+            <datalist id="gender">
+                <option value="Male">
+                <option value="Female">
+            </datalist>
+            <br>
+            <br>
+            <label for="">Citizen of India?</label>
+            <input type="radio" name="citizen" >Yes
+            <input type="radio" name="citizen" >No
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills and Experience</legend>
+            <label for="">Number of years of experience</label>
+            <input type="number">
+            <br>
+            <br>
+            <label for="">Choose your skills</label>
+            <select name="skills" id="" size='5' multiple>
+                <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Html+CSS">Html+CSS</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="MySQL">MySQL</option>
+            </select>
+            <!--
+            <label for="">Choose your skills</label>
+            <input list="skills" name="skills">
+
+            <datalist id="skills">
+                <option value="Python">
+                <option value="Java">
+                <option value="Html+CSS">
+                <option value="Javascript">
+                <option value="MySQL">
+            </datalist>
+            -->
+            
+            <br>
+            <br>
+            <label>Your past experiences and projects</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Declaration</legend>
+            <p>I hereby declare that the information provided by me is true to the best of my knowledge.</p>
+            <input type="checkbox" value="ch">
+            <label>Yes, I confirm.</label>
+            <br>
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+
+    
+     
+        
+    
+</body>
+</html>
