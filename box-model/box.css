@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* box-sizing: content-box/border-box*/
+    box-sizing: content-box;
+}
+
+.box1, .box2{
+    width:30%;
+    background-color:aquamarine;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 10%;
+    border: 5px dashed black;
+    margin: 30px 10px 20px 40px;
+}
+
+/* Margin sharing */
+
+.box1{
+    margin-bottom: 300px;
+}
+
+.box2{
+    margin-top: 300px;
+}
+
+
