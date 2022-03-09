@@ -1,0 +1,53 @@
+.footer{
+  font-size : 18px;
+  text-align: center;
+}
+.num{
+  font-size: 200%;
+  font-style: bold;
+}
+p{
+  margin:8px;
+  
+}
+img{
+  padding-bottom: 8px;
+}
+body{
+  width: 100%;
+  height:100%;
+}
+section{
+  display: flex;
+  justify-content:space-between;
+}
+
+div{
+  display: flex;
+} 
+
+
+.pl1, .pl2{
+  flex-direction: column;
+  margin:7%;
+  align-items: center;
+  box-sizing: border-box;
+  padding:4%;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.3);
+}
+.partition{
+  padding:5%;
+  justify-content: center;
+}
+
+#id1{
+  padding-left: 21%;
+}
+
+#id2{
+  padding-right: 25%;
+}
+
+#score{
+  
+}
