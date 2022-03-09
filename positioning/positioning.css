@@ -1,0 +1,40 @@
+div{
+    border: 2px solid rgb(55, 240, 178);
+    margin:5px;
+    padding: 5px;
+}
+
+#d1{
+    /*relative*/
+    position: relative;
+    top:500px; /*placed 500px below from the top*/
+    height:10em;
+}
+
+#d2{
+    /*absolute*/
+    position: absolute;
+    bottom: 5px; /* placed 5px from bottom of its parent element, the div tag*/
+    
+}
+
+#d3{
+    /* fixed*/
+    position: fixed;
+    top:0px;
+    background-color: cadetblue;
+}
+
+
+#d5{
+    /*sticky*/
+    position: sticky;
+    width: 50px;
+    top: 80%;
+    left:100%;
+    
+}
+
+body{
+    height: 5000px;
+}
