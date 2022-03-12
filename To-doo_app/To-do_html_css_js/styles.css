@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    height: 100vh;
+}
+header{
+    background-color: cornflowerblue;
+    padding: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*align y axis, justify x*/
+}
+#plus{
+    font-size: larger;
+    padding-right: 1.25%;
+}
+
+
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+/* img{
+    height: 20%;
+    width: 20%;
+} */
+
+
+.not-empty{
+    background-color: whitesmoke;
+    padding: 3%;
+    margin: 2%;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.3);
+}
+
+.todo{
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.todo:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.3);
+}
+
