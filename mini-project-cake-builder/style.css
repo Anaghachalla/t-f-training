@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+/* Fill your code*/
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color:rgb(155, 189, 252);
+    height: 90px;
+    margin-bottom: 10%;
+}
+header>div{
+    background-color:cornflowerblue;
+    width: 15%;
+    height: 160%;
+    margin-left: 40%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 50%; 
+}
+header>div>span{
+    font-size: 150%;
+    font-family: Acme;
+}
+#cake{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main>div{
+    /* background-color: bisque; */
+    width: 30%;
+    height: 40%;
+    min-height: 350px;
+}
+footer{
+    background-color: rgb(155, 189, 252);
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+footer>div{
+    background-color: rgba(241, 241, 241, 0.5);
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 1.25%;
+    border-radius: 20%;
+    font-family: Acme;
+}
+footer>div:nth-last-child(2){
+    background-color: rgb(111, 243, 199);
+}
+
+footer>div:hover{
+    background-color: rgba(241, 241, 241, 0.9);
+}
+footer>div:nth-last-child(2):hover{
+    background-color: rgb(111, 243, 199);
+}
+
+/* main:nth-child(odd){
+    background-image: url("assets/list_template.png");
+} */
+
+#items , #selected{
+    background-image:url("assets/list_template.png") ;
+    background-repeat: no-repeat;
+    background-size: 360px;
+    background-position: center;
+    text-align: center;
+    font-family: 'Architects Daughter';
+    vertical-align: middle;
+    
+}
+
+.list{
+    margin-top: 5%;
+}
+
+.list2{
+    margin-top: 2%;
+}
+h2{
+    margin-top: 15%;
+}
+
+h1{
+    margin-top: 3%;
+}
+
+
+/*layers*/
+
+#candles{
+    
+    height: 60px;
+    width: 40px;
+    /*visibility: hidden; */
+}
+
+#layer1{
+    width: 245px;
+    /* visibility: hidden; */
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    /* visibility: hidden; */
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    /* visibility: hidden; */
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    /* visibility: hidden; */
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    /* visibility: hidden; */
+}
+
+#stack{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+}
+
+#stack>*
+{
+    height: 50px;
+    border-radius: 10%;
+}

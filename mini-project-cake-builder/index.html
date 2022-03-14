@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="cake" src="assets/cake.png" alt="">
+            <span>Cake World</span>
+        </div>
+    </header>
+    <main>
+        <div id="items">
+            <h2 >PRICES</h2>
+            <p class="list">Chocolate ---- 300</p>
+            <p class="list">Strawberry ---- 100</p>
+            <p class="list">Butterscotch ---- 200</p>
+            <p class="list">Vanilla ---- 250</p>
+            <p class="list">Redvelvet ---- 350</p>
+        </div>
+
+        <div id="stack">
+            <!-- <img id="candles" src="assets/candle.png" alt=""> -->
+            <!-- <col id="layer5">
+            <col id="layer4">
+            <col id="layer3">
+            <col id="layer2">
+            <col id="layer1"> -->
+        </div>
+
+        <div id="selected">
+            <h2>BILL</h2>
+            <!-- <p class="list"></p>
+            <p class="list"></p>
+            <p class="list"></p>
+            <p class="list"></p>
+            <p class="list"></p> -->
+        </div>
+
+    </main>
+    <footer>
+        <div onclick="layer(300,this); return false" id="Chocolate">Chocolate</div>
+        <div onclick="layer(100,this); return false" id="Strawberry">Strawberry</div>
+        <div onclick="layer(200,this); return false" id="Butterscotch">Butterscotch</div>
+        <div onclick="layer(250,this); return false" id="Vanilla">Vanilla</div>
+        <div onclick="layer(350,this); return false" id="Red Velvet">Red Velvet</div>
+        <div onclick="buy()">BUY</div>
+        <div onClick="window.location.reload();">New Order!</div>
+    </footer>
+</body>
+<script src="/script.js"></script>
+</html>
