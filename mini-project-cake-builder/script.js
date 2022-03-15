@@ -49,12 +49,20 @@ function layer(cost,a)
 
 function buy()
 {
-    var total= document.createElement("h1");
-    total.innerText= "Total ----- "+String(total_bill);
-    document.querySelector("#selected").appendChild(total);
+   if (total_bill===0)
+   {
+       alert("Add items to checkout");
+   }
     //document.getElementById("candles").style.visibility= "visible";
-    var img= document.createElement("img");
-    img.src = "assets/candle.png";
-    img.id = "candles";
-    document.querySelector("#stack").appendChild(img);
+    else
+    {
+        var total= document.createElement("h1");
+        total.innerText= "Total ----- "+String(total_bill);
+        document.querySelector("#selected").appendChild(total);
+        var img= document.createElement("img");
+        img.src = "assets/candle.png";
+        img.id = "candles";
+        document.querySelector("#stack").appendChild(img);
+    }
+    
 }
