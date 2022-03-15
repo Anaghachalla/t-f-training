@@ -1,7 +1,7 @@
 /*Fill your code */
 var layers_list = [];
 var total_bill = 0;
-stack=0
+stack=0;
 
 function layer(cost,a)
 {
@@ -51,10 +51,10 @@ function buy()
 {
    if (total_bill===0)
    {
-       alert("Add items to checkout");
+       alert("Add items to checkout!");
    }
     //document.getElementById("candles").style.visibility= "visible";
-    else
+    else if (total_bil>0)
     {
         var total= document.createElement("h1");
         total.innerText= "Total ----- "+String(total_bill);
@@ -63,6 +63,11 @@ function buy()
         img.src = "assets/candle.png";
         img.id = "candles";
         document.querySelector("#stack").appendChild(img);
+        total_bill=-1;
+    }
+    else
+    {
+        alert("Already checked out!");
     }
     
 }
